@@ -15,6 +15,12 @@
   --input-background: #f6f6f6;
   --input-focus: rgba(213, 213, 213, 0.6);
 }
+.body {
+  width: 100dvw;
+  height: 100dvw;
+  touch-action: pan-y;
+  overflow-y: scroll;
+}
 p {
   font-size: 0.8rem;
   color: var(--p-text-color);
